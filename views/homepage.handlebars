@@ -1,0 +1,15 @@
+{{#each blogPosts as |blogPost| }}
+<div class="row mb-4 project">
+  <div class="col-md-5">
+    <h3>
+        {{blogPost.title}}
+    </h3>
+    <span>Created by {{blogPost.user.username}} on {{blogPost.date_created}}</span>
+  </div>
+  <div class="col-md-7">
+    <p>
+      {{blogPost.body}}
+    </p>
+  </div>
+</div>
+{{/each}}

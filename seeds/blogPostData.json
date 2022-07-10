@@ -1,14 +1,14 @@
 [
     {
         "title": "Test Post",
-        "body": "A test post for testing."
+        "contents": "A test post for testing."
     },
     {
         "title": "Another Test Post",
-        "body": "A test post for continued testing."
+        "contents": "A test post for continued testing."
     },
     {
         "title": "Yes, A Third Test Post",
-        "body": "Quite a bit of testing, indeed."
+        "contents": "Quite a bit of testing, indeed."
     }
 ]
